@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>magCalco</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+ </head>
+    <body>
+      <div class="">
+        <h1>MagCalco Scientifique</h1>
+      </div>
+      <table id="table">
+          <tr>
+              <td colspan="5">
+                  <input type="text" value=""  id="affichage"  />
+              </td>
+          </tr>
+          <tr>
+            <td><input type="button" id="touche1" value="AC " onclick="effacer1();"></td>
+            <td><input type="button" id="touche2" value="Sup " onclick="supprime();"></td>
+            <td><input type="button" id="touche3" value="Off" onclick="effacer();" style="color:red;"></td>
+            <td><input type="button" id="touche4" value="2ndF " onclick=""></td>
+            <td><input type="button" id="touche5" value="ln " onclick="ln();"></td>
+
+        </tr>
+
+        <tr>
+          <td><input   type="button" id="touche6" value="expo " onclick="expo();"></td>
+            <td><input type="button" id="touche7" value="sqrt" onclick="racine();"></td>
+            <td><input type="button" id="touche8" value="( " onclick="touche(this);"></td>
+            <td><input type="button" id="touche9" value=") " onclick="touche(this);"></td>
+            <td><input type="button" id="touche10" value="Abs " onclick=""></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="touche101" value="xy " onclick="puissance();"></td>
+           <td><input type="button"  id="touche102" value="cos " onclick="cos();"></td>
+           <td><input type="button"  id="touche103" value="sin " onclick="sin();"></td>
+           <td><input type="button"  id="touche104" value="tan " onclick="tan();"></td>
+           <td><input type="button"  id="touche105" value="± " onclick="sign()"></td>
+        </tr>
+
+        <tr>
+           <td><input type="button" id="touche106" value="acos" onclick="acos();"></td>
+           <td><input type="button" id="touche107" value="asin" onclick="asin();"></td>
+           <td><input type="button" id="touche108" value="atan " onclick="atan();"></td>
+           <td><input type="button" id="touche109" value="inv " onclick="inverse();"></td>
+           <td><input type="button" id="touche200" value="x2" onclick="puissance();"></td>
+        </tr>
+
+        <tr>
+           <td><input type="button" id="touche201" value="log" onclick="log();"></td>
+           <td><input type="button" id="touche202" value="pi " onclick="py();"></td>
+           <td><input type="button" id="touche203" value="bin" onclick=""></td>
+           <td><input type="button" id="touche204" value="dec " onclick="decimal();"></td>
+           <td><input type="button" id="touche124" value=". " onclick="touche(this);"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="button" id="touche11" value="7 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche12" value="8 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche13" value="9 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche14" value="&divide " onclick="touche(this);"></td>
+            <td><input type="button" id="touche15" value="x " onclick="touche(this);"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="touche16" value="4 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche17" value="5 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche18" value="6 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche26" value="-" onclick="touche(this)"></td>
+            <td><input type="button" id="touche27" value="&plus;" onclick="touche(this);"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" id="touche19" value="1 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche20" value="2 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche21" value="3 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche22" value="0 " onclick="touche(this);"></td>
+            <td><input type="button" id="touche207"value="=" onclick="resultat();"></td>
+        </tr>
+        </tr>
+
+
+
+      </table>
+
+
+  </body>
+</html>
